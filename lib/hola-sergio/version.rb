@@ -1,3 +1,3 @@
-module Hola
-  VERSION = "0.1.1"
+module HolaSergio
+  VERSION = "0.1.2"
 end
