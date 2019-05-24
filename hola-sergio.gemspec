@@ -5,7 +5,7 @@ require "hola-sergio/version"
 Gem::Specification.new do |s|
     s.name         = 'hola-sergio'
     s.version      = Hola::VERSION
-    s.date         = '2010-04-28'
+    s.date         = '2019-05-23'
     s.summary      = 'A simple hello world gem, from a very special man'
     s.authors      = ['Sergio Romero']
     s.email        = 'sergioro@nmsu.edu'
