@@ -1,6 +1,10 @@
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "hola-sergio/version"
+
 Gem::Specification.new do |s|
     s.name = 'hola-sergio'
-    s.version = '0.0.1'
+    s.version = Hola::VERSION
     s.date = '2010-04-28'
     s.summary = 'A simple hello world gem, from a very special man'
     s.authors = ['Sergio Romero']
