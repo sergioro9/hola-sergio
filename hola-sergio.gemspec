@@ -4,7 +4,7 @@ require "hola-sergio/version"
 
 Gem::Specification.new do |s|
     s.name         = 'hola-sergio'
-    s.version      = Hola::VERSION
+    s.version      = HolaSergio::VERSION
     s.date         = '2019-05-23'
     s.summary      = 'A simple hello world gem, from a very special man'
     s.authors      = ['Sergio Romero']
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
     it is necessary that at least once in your life you doubt,
     as far as possible, all things
 desc
-    s.license      = 'wtfpl'
+    s.license      = 'MIT'
 end
